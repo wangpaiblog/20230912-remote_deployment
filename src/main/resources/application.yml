@@ -1,0 +1,11 @@
+server:
+  port: 12345
+spring:
+  application:
+    name: remote_deployment
+management:
+  endpoints:
+    web:
+      exposure:
+        # 公开所有端点
+        include: '*'
